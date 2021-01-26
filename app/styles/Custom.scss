@@ -1,0 +1,23 @@
+// Your variable overrides
+$body-bg: #ffffff;
+$body-color: #ffffff;
+$primer-spacer: 10px !default;
+// define the spacers variable map. notice the keys from 6-12
+// this avoids conflict or overwriting the bootstrap values
+$spacers: (
+  1: 0,
+  2: round($primer-spacer / 2),
+  3: $primer-spacer,
+  4: $primer-spacer * 2,
+  5: $primer-spacer * 3,
+  6: $primer-spacer * 4,
+  7: $primer-spacer * 7,
+  8: $primer-spacer * 8,
+  9: $primer-spacer * 9,
+  10: $primer-spacer * 10,
+  11: $primer-spacer * 11,
+  12: $primer-spacer * 12,
+  13: $primer-spacer * 20,
+);
+// Bootstrap and its default variables
+@import "../../node_modules/bootstrap/scss/bootstrap";

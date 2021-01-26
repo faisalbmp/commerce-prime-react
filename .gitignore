@@ -1,0 +1,8 @@
+.DS_Store
+/build
+/dist
+/node_modules
+package-lock.json
+yarn.lock
+.env
+deployment.prod.yaml
